@@ -1,0 +1,107 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
+
+h2 {
+  font-weight: 400;
+  font-size: medium;
+}
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: orange;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+.flex {
+  display: flex;
+  background: white;
+  padding: 10px;
+}
+
+.profile-text {
+  margin-left: 20px;
+}
+
+#profile {
+  display: flex;
+}
+
+.kontak {
+  background: blue;
+  color: #ffff;
+  padding: 8px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.resume {
+  background: transparent;
+  color: green;
+  padding: 6px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 10px;
+}
+
+#detail {
+  margin-left: 20px;
+}
