@@ -53,6 +53,10 @@ form input[type="submit"] {
 }
 
 /* tambahkan CSS untuk section profile disini */
+h1 {
+  font-weight: bold;
+  font-size: larger;
+}
 
 h2 {
   font-weight: 400;
@@ -104,4 +108,10 @@ img {
 
 #detail {
   margin-left: 20px;
+}
+
+table {
+  gap: inherit;
+
+  height: 100%;
 }
