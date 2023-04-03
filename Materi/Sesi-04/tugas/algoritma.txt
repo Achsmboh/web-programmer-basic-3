@@ -1,0 +1,21 @@
+Buatlah sebuah algoritma yang menghitung luas dan keliling lingkaran, jika diberikan panjang jari-jari lingkaran :
+
+1.tulis judul algoritma
+2.tulis input input yang diperlukan untuk menghitung luas dan keliling lingkaran
+3.tulis langkah kalkulasi
+4.tulis instruksi untuk tampilkan hasil kalkulasi
+
+
+1.  Menghitung Luas dan Keliling Lingkaran
+
+2.  STORE "phi" with value
+    STORE "r" (jari-jari) with value
+    STORE "luas" withot value
+    STORE "keliling" without value
+
+3.  CALCULATE "phi" cross "r" cross "r"
+        SET "luas" value with calculation result
+    CALCULATE "phi" cross "2" cross "r"
+        SET "keliling" value with calculation result
+
+4.  DISPLAY "luas" dan "keliling"

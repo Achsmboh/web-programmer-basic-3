@@ -1,0 +1,46 @@
+kode peserta : INPG-PKJ03-015
+nama peserta : Achmad Maulana Achsan
+tugas sesi 4 : 
+
+1. Menentukan nilai
+	A = 80. 100
+	B = 70. 79
+	C = 60. 69
+	Jika nilai >101 > data tidak ada
+	Jika nilai <59. -0 > data tidak ada
+
+tugas :
+  - dibuatkan sketsa
+  - dibuatkan konsep (logic/kondisi)
+
+sketsa :
+1. masukan nama dengan tipe data string, data tidak boleh lebih dari 50 karakter
+
+2. masukan nilai tidak boleh lebih dari 100, dan tidak boleh kurang dari 60, jika lebih dari 100 maka hasilnya "data tidak ada"
+
+3. gunakan percabangan if else
+	IF nilai >= 80 AND nilai <= 100 ---> huruf mutu IS "A"
+	ELSE IF nilai >= 70 AND nilai <= 79 ---> huruf mutu IS "B"
+	ELSE IF nilai >= 60 AND nilai <= 69 --->  mutu IS "C"
+	ELSE nilai DISPLAY "data tidak ada"
+
+4. nama anda "Achmad Maulana Achsan" 
+   nilai anda 80
+   huruf mutu A
+
+logic :
+	let nama = "Achmad Maulana Achsan";
+	let nilai = 80;
+	let result 
+
+	if(nilai >= 80 && nilai <= 100){
+		result = "A"
+	}else if(nilai >= 70 && nilai<= 79){
+		result = "B"
+	}else if(nilai >= 60 && nilai<= 69){
+		result = "C"
+	}else{
+		result = "data tidak ada"
+	}
+
+	console.log(nama, nilai, result);
