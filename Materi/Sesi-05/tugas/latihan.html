@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan</title>
+  </head>
+  <body>
+    <label for="pesan">Pesan: </label><input id="pesan" type="text" name="pesan" required /><br />
+    <label for="loop">Berapa kali: </label><input type="text" name="loop" id="loop" /><br />
+    <button onclick="cetak()">Cetak!</button>
+
+    <ol id="nama_variabel"></ol>
+
+    <script>
+      const nama_variabel = document.getElementById("nama_variabel");
+
+      function cetak() {
+        let pesan = document.getElementById("pesan").value;
+        let loop = document.getElementById("loop").value;
+
+        for (let i = 0; i < loop; i++) {
+          nama_variabel.innerHTML = nama_variabel.innerHTML + `<li>${pesan}</li>`;
+        }
+      }
+    </script>
+  </body>
+</html>
