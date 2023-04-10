@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar javaScript</title>
+  </head>
+  <body>
+    <h1>Pola RegExp sebagai String</h1>
+    <p>Jangan lupa cek console</p>
+    <script>
+      var foo = "Belajar JavaScript";
+
+      console.log(/JavaScript/.test(foo)); // true
+      console.log(/javaScript/.test(foo)); // false
+      console.log(/Belajar/.test(foo)); // true
+      console.log(/belajar/.test(foo)); // false
+      console.log(/Java/.test(foo)); //true
+      console.log(/ajar/.test(foo)); // true
+    </script>
+  </body>
+</html>
